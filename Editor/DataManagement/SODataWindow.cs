@@ -136,7 +136,7 @@ namespace ScriptableObjectDataManagement
 
             // 多选模式切换
             bool previousMultiSelectMode = _isMultiSelectMode;
-            _isMultiSelectMode = GUILayout.Toggle(_isMultiSelectMode, "多选", EditorStyles.toolbarButton, GUILayout.Width(50));
+            _isMultiSelectMode = GUILayout.Toggle(_isMultiSelectMode, "Multiple Choice", EditorStyles.toolbarButton, GUILayout.Width(50));
 
             // 关闭多选模式时清空多选状态
             if (previousMultiSelectMode && !_isMultiSelectMode)
