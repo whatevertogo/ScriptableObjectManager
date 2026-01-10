@@ -1,0 +1,1 @@
+{"name":"ScriptableObjectManager.Editor","references":["ScriptableObjectManager"],"includePlatforms":["Editor"],"allowUnsafeCode":false}

@@ -3,12 +3,14 @@
 [English](README_EN.md) | 简体中文
 
 一个功能强大的 Unity ScriptableObject 数据管理工具，提供可视化编辑器界面，帮助你高效管理项目中的所有 ScriptableObject 资产。
+支持增量更新和批量操作。
 
 ## 功能特性
 
 ### 核心功能
 
-- **自动扫描注册** - 通过 `[ManagedData]` 特性自动扫描并注册 ScriptableObject 类型
+- **自动扫描注册** - 自动扫描并注册 ScriptableObject 类型
+- **通过 `[ManagedData]` 特性标记** - 通过添加特性标记为其增加分类信息
 - **分类管理** - 支持按 Category 分组显示和管理资产
 - **快速创建** - 可视化界面快速创建新的 ScriptableObject 实例
 
@@ -41,10 +43,12 @@
 
 1. 将本项目克隆到 Unity 项目的 `Assets/` 目录下：
    ```
-   Assets/ScriptObjectManagerSystem/
+   Assets/
    ```
 
-2. 或使用 Unity Package Manager 的 Git URL 功能（如果已推送到 GitHub）：
+2. 或使用 Unity Package Manager 的 Git URL 功能：
+
+3. 已经打包好的 Unity Package 文件，可以直接导入使用。
 
 ## 使用方法
 
@@ -87,8 +91,8 @@ public class CharacterSO : ScriptableObject
 
 ```
 ScriptObjectManagerSystem/
-├── Attribute/
-│   └── ManagedDataAttribute.cs    # 管理数据标记特性
+├── Runtime/
+│   └── ManagedDataAttribute.cs    # 管理数据标记特性（运行时）
 ├── Editor/
 │   ├── DataManagement/
 │   │   ├── Core/                  # 核心数据结构
@@ -98,7 +102,8 @@ ScriptObjectManagerSystem/
 │   └── SOHelper/                  # 辅助工具
 │       ├── GenericSOWindow.cs     # 带历史导航的 SO 编辑器
 │       └── SOPopupDrawer.cs       # SO 引用快捷按钮绘制器
-└── ScriptObjectSO.cs              # 基类示例
+├── ScriptableObjectManager.asmdef       # Runtime 程序集定义
+└── Editor/ScriptableObjectManager.Editor.asmdef  # Editor 程序集定义
 ```
 
 ### SOHelper 模块说明

@@ -87,8 +87,8 @@ In Unity Editor:
 
 ```
 ScriptObjectManagerSystem/
-├── Attribute/
-│   └── ManagedDataAttribute.cs    # Managed data attribute
+├── Runtime/
+│   └── ManagedDataAttribute.cs    # Managed data attribute (Runtime)
 ├── Editor/
 │   ├── DataManagement/
 │   │   ├── Core/                  # Core data structures
@@ -98,7 +98,8 @@ ScriptObjectManagerSystem/
 │   └── SOHelper/                  # Helper tools
 │       ├── GenericSOWindow.cs     # SO editor with history navigation
 │       └── SOPopupDrawer.cs       # Quick open button drawer for SO references
-└── ScriptObjectSO.cs              # Base class example
+├── ScriptableObjectManager.asmdef       # Runtime assembly definition
+└── Editor/ScriptableObjectManager.Editor.asmdef  # Editor assembly definition
 ```
 
 ### SOHelper Module

@@ -1,0 +1,36 @@
+{
+  "name": "com.yourname.scriptableobject-manager",
+  "version": "1.0.0",
+  "displayName": "ScriptableObject Data Manager",
+  "description": "A powerful Unity ScriptableObject data management tool with visual editor interface for efficiently managing all ScriptableObject assets in your project.",
+  "unity": "2020.3",
+  "unityRelease": "0f1",
+  "dependencies": {},
+  "keywords": [
+    "scriptableObject",
+    "data",
+    "manager",
+    "editor",
+    "tool",
+    "utilities",
+    "asset",
+    "management"
+  ],
+  "author": {
+    "name": "Your Name",
+    "email": "your.email@example.com",
+    "url": "https://github.com/yourusername"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/ScriptObjectManagerSystem.git"
+  },
+  "license": "MIT",
+  "samples": [
+    {
+      "displayName": "Basic Usage",
+      "description": "Example showing how to use ManagedData attribute",
+      "path": "Samples~/BasicUsage"
+    }
+  ]
+}
