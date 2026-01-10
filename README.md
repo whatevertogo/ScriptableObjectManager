@@ -74,6 +74,7 @@ public class CharacterSO : ScriptableObject
 在 Unity 编辑器中：
 - 菜单路径：`Tools/SO Data Manager`
 - 快捷键：`Ctrl + Shift + M`
+!(图片描述)[Image/image.png]
 
 ### 窗口功能说明
 
