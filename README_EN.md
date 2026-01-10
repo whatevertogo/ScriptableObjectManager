@@ -125,4 +125,4 @@ MIT License
 
 ## Author
 
-Created with <3 for Unity developers
+whatevertogo
