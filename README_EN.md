@@ -8,7 +8,8 @@ A powerful Unity ScriptableObject data management tool with a visual editor inte
 
 ### Core Features
 
-- **Auto Scan & Register** - Automatically scan and register ScriptableObject types via `[ManagedData]` attribute
+- **Auto Scan & Register** - Automatically scan and register ScriptableObject 
+- **Marked with `[ManagedData]` Attribute** - Mark via [ManagedData] attribute - Add category information by attaching the attribute tag.
 - **Category Management** - Group and manage assets by Category
 - **Quick Creation** - Visual interface for quickly creating new ScriptableObject instances
 
