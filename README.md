@@ -128,4 +128,5 @@ MIT License
 
 ## 作者
 
-Created with <3 for Unity developers
+whatevertogo
+讨厌八股文的人
