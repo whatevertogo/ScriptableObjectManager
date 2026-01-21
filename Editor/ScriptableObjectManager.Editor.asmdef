@@ -1,1 +1,7 @@
-{"name":"ScriptableObjectManager.Editor","references":["ScriptableObjectManager"],"includePlatforms":["Editor"],"allowUnsafeCode":false}
+{
+    "name": "ScriptableObjectManager.Editor",
+    "rootNamespace": "ScriptableObjectDataManagement.Editor",
+    "references": ["ScriptableObjectManager"],
+    "includePlatforms": ["Editor"],
+    "allowUnsafeCode": false
+}

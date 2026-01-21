@@ -1,1 +1,7 @@
-{"name":"ScriptableObjectManager","references":[],"includePlatforms":[],"allowUnsafeCode":false}
+{
+    "name": "ScriptableObjectManager",
+    "rootNamespace": "ScriptableObjectDataManagement",
+    "references": [],
+    "includePlatforms": [],
+    "allowUnsafeCode": false
+}
